@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29000" started-at="2018-09-11T03:30:52Z" finished-at="2018-09-11T03:31:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29000" started-at="2018-09-11T03:30:52Z" finished-at="2018-09-11T03:31:21Z">
+      <class name="module6.Scenario2">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:module6.Scenario2@7a187f14]" name="openApp" duration-ms="9364" started-at="2018-09-11T03:30:52Z" finished-at="2018-09-11T03:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:module6.Scenario2@7a187f14]" name="Login" duration-ms="10772" started-at="2018-09-11T03:31:01Z" depends-on-methods="module6.Scenario2.openApp" finished-at="2018-09-11T03:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:module6.Scenario2@7a187f14]" name="Logout" duration-ms="8749" started-at="2018-09-11T03:31:12Z" depends-on-methods="module6.Scenario2.Login" finished-at="2018-09-11T03:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- module6.Scenario2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

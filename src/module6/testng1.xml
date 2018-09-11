@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="First XML">
+	<test name="First TestNG using XML">
+		<classes>
+			<class name="module6.Scenario1"></class>
+		</classes>
+	</test>
+</suite>

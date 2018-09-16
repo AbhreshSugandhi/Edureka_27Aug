@@ -1,6 +1,6 @@
 package module7;
-import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -13,13 +13,14 @@ public class Grid_SetUp {
 	public static void main(String[]  args) throws MalformedURLException, InterruptedException{
 
  		String URL = "http://www.google.com";
- 		//String Node = "http://localhost:5566/wd/hub";
+ 		String Node = "http://localhost:5566/wd/hub";
  		
  		DesiredCapabilities cap = DesiredCapabilities.firefox();
  		cap = DesiredCapabilities.firefox(); 
  		cap.setBrowserName("firefox"); 
- 		cap.setPlatform(Platform.WINDOWS);
- 		driver = new RemoteWebDriver(new URL("http://localhost:5566/wd/hub"), cap);
+ 		cap.setPlatform(org.openqa.selenium.Platform.WINDOWS);
+ 		//System.setProperty("webdriver.chrome.driver", "D:\\Training\\Installation stuff\\Exe Files\\chromedriver.exe");
+ 		driver = new RemoteWebDriver(new URL(Node), cap);
  		driver.navigate().to(URL);
  		Thread.sleep(5000);
  		driver.quit();

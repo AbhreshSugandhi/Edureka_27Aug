@@ -51,5 +51,6 @@
 	<classpathentry kind="lib" path="D:/Training/Installation_stuff/JarFiles/poi-3.17/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="lib" path="D:/Training/Installation_stuff/JarFiles/poi-3.17/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="lib" path="D:/Training/Installation_stuff/JarFiles/Jxl/jxl-2.6.12.jar"/>
+	<classpathentry kind="lib" path="D:/Training/Installation_stuff/JarFiles/Sikuli/sikulix.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

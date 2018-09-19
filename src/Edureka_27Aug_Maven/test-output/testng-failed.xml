@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MavenTest]">
+  <test thread-count="5" name="NewTourMavenTest(failed)">
+    <classes>
+      <class name="MavenTest.NewTours">
+        <methods>
+          <include name="Login"/>
+          <include name="openApp"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- MavenTest.NewTours -->
+    </classes>
+  </test> <!-- NewTourMavenTest(failed) -->
+</suite> <!-- Failed suite [MavenTest] -->

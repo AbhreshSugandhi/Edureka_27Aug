@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MavenTest">
+  <test name="NewTourMavenTest">
+    <classes>
+      <class name="MavenTest.NewTours"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
